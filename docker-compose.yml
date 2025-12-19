@@ -25,8 +25,8 @@ services:
       - n8n
     depends_on:
       - n8n_db
-    ports:
-      - "5678:5678"
+#    ports:
+#      - "5678:5678"
 
   n8n_db:
     image: postgres:15
